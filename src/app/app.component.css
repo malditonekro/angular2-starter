@@ -1,0 +1,18 @@
+.card-header {
+    background-image: -moz-linear-gradient(top, #0079bd, #0C5FC7);
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#0C5FC7), to(#FFA406));
+    background-image: -webkit-linear-gradient(top, #0079bd, #0C5FC7);
+    background-image: -o-linear-gradient(top, #0079bd, #0C5FC7);
+    background-image: linear-gradient(to bottom, #0079bd, #0C5FC7);
+    background-repeat: repeat-x;
+}
+
+h2 {
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color:#ffffff;
+}
+
+.card {
+    text-align: left;
+}

@@ -1,0 +1,53 @@
+{
+  "name": "angular2app-seed",
+  "version": "0.0.1",
+  "description": "A webpack starter for angular 2",
+  "scripts": {
+    "start": "webpack-dev-server --inline --hot --progress --port 8000",
+    "build": "webpack --config config/webpack.prod.js --progress --profile --bail",
+    "typings": "typings",
+    "postinstall": "typings install"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@angular/common": "latest",
+    "@angular/compiler": "latest",
+    "@angular/core": "latest",
+    "@angular/forms": "latest",
+    "@angular/http": "latest",
+    "@angular/platform-browser": "latest",
+    "@angular/platform-browser-dynamic": "latest",
+    "@angular/router": "latest",
+    "@ng-bootstrap/ng-bootstrap": "latest",
+    "awesome-typescript-loader": "^3.0.0-beta.14",
+    "bootstrap": "4.0.0-alpha.5",
+    "copy-webpack-plugin": "^4.0.1",
+    "core-js": "latest",
+    "font-awesome": "^4.7.0",
+    "json-loader": "^0.5.4",
+    "reflect-metadata": "latest",
+    "rxjs": "latest",
+    "url-loader": "^0.5.7",
+    "zone.js": "latest"
+  },
+  "devDependencies": {
+    "@types/es6-shim": "latest",
+    "@types/node": "latest",
+    "css-loader": "latest",
+    "extract-text-webpack-plugin": "latest",
+    "file-loader": "latest",
+    "html-loader": "latest",
+    "html-webpack-plugin": "latest",
+    "null-loader": "latest",
+    "raw-loader": "latest",
+    "style-loader": "latest",
+    "ts-loader": "latest",
+    "typescript": "latest",
+    "typings": "latest",
+    "webpack": "latest",
+    "webpack-cleanup-plugin": "latest",
+    "webpack-dev-server": "latest",
+    "webpack-livereload-plugin": "latest",
+    "webpack-merge": "latest"
+  }
+}

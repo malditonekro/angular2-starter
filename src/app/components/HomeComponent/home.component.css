@@ -1,0 +1,80 @@
+h4 {
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+.form-group {
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    list-style-type: none;
+}
+
+p {
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+.form-control {
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+.alert {
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+    
+.btntbj {
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    border: 1px solid #FFA406;
+    background-image: -moz-linear-gradient(top, #FEC44C, #FFA406);
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#FEC44C), to(#FFA406));
+    background-image: -webkit-linear-gradient(top, #FEC44C, #FFA406);
+    background-image: -o-linear-gradient(top, #FEC44C, #FFA406);
+    background-image: linear-gradient(to bottom, #FEC44C, #FFA406);
+    background-repeat: repeat-x;
+    color: #FFF;
+    font-weight:700;
+    letter-spacing: -1px;
+    text-shadow: 1px 1px 0 #C78714;
+}
+
+.btntbj:hover {
+    background-color: #FFA406;
+    background-position: 0 -15px;
+    -webkit-transition: background-position .1s linear;
+    -moz-transition: background-position .1s linear;
+    -o-transition: background-position .1s linear;
+    transition: background-position .1s linear;
+}
+
+.btntbj-secondary {
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    border: 1px solid #DADADA;
+    background-image: -moz-linear-gradient(top, #E4E4E4, #DFDDDD);
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#DFDDDD), to(#FFA406));
+    background-image: -webkit-linear-gradient(top, #E4E4E4, #DFDDDD);
+    background-image: -o-linear-gradient(top, #E4E4E4, #DFDDDD);
+    background-image: linear-gradient(to bottom, #E4E4E4, #DFDDDD);
+    background-repeat: repeat-x;
+    color: #646464;
+    letter-spacing: -1px;
+    text-shadow: 1px 1px 0 #DADADA;
+}
+
+.btntbj-secondary:hover {
+    background-color: #DADADA;
+    background-position: 0 -15px;
+    -webkit-transition: background-position .1s linear;
+    -moz-transition: background-position .1s linear;
+    -o-transition: background-position .1s linear;
+    transition: background-position .1s linear;
+}
